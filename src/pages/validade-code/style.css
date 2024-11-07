@@ -1,0 +1,38 @@
+/* crie um estilo para a página de validação de código
+
+    <main>
+      <section>
+        <h1>Validação de Código</h1>
+        <p>Insira o código de validação enviado para o seu email.</p>
+        <form>
+          <label>Código de Validação</label>
+          <input type="text" id="code" placeholder="Código de Validação" />
+          <button type="submit">Validar</button>
+        </form>
+      </section>
+    </main>
+
+*/
+
+/* CSS */
+
+/* Botão de submissão aprimorado */
+.validateCodeForm {
+  width: 100%;
+  padding: 1rem;
+  background-color: #2563eb; /* Azul para o botão */
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
