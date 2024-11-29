@@ -1,50 +1,36 @@
-# React + TypeScript + Vite
+# 📚 Projeto de Desenvolvimento Web Back-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte de uma atividade acadêmica proposta por um professor para aplicar conceitos fundamentais de desenvolvimento Back-End.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📜 Descrição do Projeto
+Este projeto consiste na criação de uma tela de login com um autenticador e com reconhecimento facial.
 
-## Expanding the ESLint configuration
+O objetivo principal foi aplicar os conhecimentos adquiridos duarente as pesquisas em documentações e vídeos, desenvolvendo habilidades práticas relacionadas ao desenvolvimento back-end.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+### 🎯 Funcionalidades
+🔹 Cadastro de usuário no banco de dados
+🔹 Uso de autenticador
+🔹 Reconhecimento facial
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 🛠️ Tecnologias Utilizadas
+- **TypeScript** para estruturação do código e integração com bibliotecas e frameworks.
+- **AWS Rekognition** para o regonhecimento facial.
+- **NestJS** para o desenvolvimento do aplicativo back-end em Node.js.
+- **SQLite** para o gerenciamento do banco de dados.
+- **Nodemailer** para realizar o envio de e-mails de forma simples.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+### 📸 Demonstração
+🖼️ Confira algumas telas de captura do projeto:
+![943a99b4-89c6-49f6-886a-e0e56e70f107](https://github.com/user-attachments/assets/79dda0cf-ced3-4ae4-8a1f-d0864c7be3c8)
+![547a9d9f-775f-47c9-ac7e-2aac253a6841](https://github.com/user-attachments/assets/ab358a75-2a6d-4745-8e75-40e5eefe4ce4)
+![fca34135-ebf0-4c4a-9f09-a816c0b2d177](https://github.com/user-attachments/assets/628c8fec-a54e-404a-ad4d-5127777397f5)
+![157436f5-eb82-4b70-9924-ac539e139210](https://github.com/user-attachments/assets/012dfc06-ecd7-419c-b027-61d5d1131d67)
